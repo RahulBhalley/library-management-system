@@ -14,9 +14,9 @@ venv\Scripts\activate     # Windows
 pip install -e .
 ```
 
-- Run the server:
+- Run the server on port 5001 (please disable System Preferences > General > AirDrop & Handoff > AirPlay Receiver, if on macOS):
 ```
-python run.py
+python run.py --port 5001
 ```
 
 - Run tests:
